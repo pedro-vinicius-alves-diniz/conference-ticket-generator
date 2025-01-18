@@ -33,49 +33,126 @@
     </style>
   </head>
   <body
-    class="font-incosolata bg-mobile bg-cover bg-center flex flex-col items-center justify-between h-screen"
+    class="
+      h-screen
+      font-incosolata 
+      bg-mobile bg-cover bg-center 
+      flex flex-col items-center justify-between
+    "
   >
-    <div id="container-main" class="flex flex-col gap-5">
+    <div 
+      id="container-main" 
+      class="
+        max-w-sm 
+        flex flex-col  
+        mx-auto gap-5
+      "
+    >
       <!-- Header starts -->
-      <header class="flex flex-col items-center justify-center pt-8 px-5">
+      <header 
+        class="
+          flex flex-col items-center justify-center
+          pt-8
+        "
+      >
         <img src="assets/images/logo-full.svg" alt="Logo full Coding Conf" />
-        <h4 class="text-n-0 text-3xl text-center font-extrabold mt-6 mb-4">
+        <h4 
+          class="
+            text-n-0 text-3xl text-center 
+              font-extrabold 
+              mt-6 mb-4
+          "
+        >
           Your Journey to Coding Conf 2025 Starts Here!
         </h4>
-        <p class="text-n-500 text-center text-xl font-medium">
+        <p 
+          class="
+            text-n-500 text-center text-xl 
+            font-medium
+          "
+        >
           Secure your spot at next year's biggest coding conference.
         </p>
       </header>
       <!-- Header ends -->
 
-      <main class="mx-4">
+      <main>
         <!-- Form starts -->
         <div id="container-form">
-          <form class="text-n-0 flex flex-col gap-3">
+          <form 
+            class="
+              text-n-0 
+                flex flex-col 
+                gap-3
+            "
+          >
 
-            <!-- INPUT PHOTO AVATAR -->
-            <div id="form-photo" class="flex flex-col gap-1">
+            <!-- STARTS INPUT PHOTO AVATAR -->
+            <div 
+              id="form-photo" 
+              class="
+                flex flex-col 
+                gap-1
+              "
+            >
               <label for="iphoto">Upload Avatar</label>
-              <div class="border-dashed border-2 border-n-700 flex flex-col rounded-md items-center justify-center py-4 gap-2 bg-n-500/10">
-                <label for="iphoto" class="bg-n-700 p-1 rounded-lg border border-n-900">
-                  <img src="assets/images/icon-upload.svg" alt="Button upload">
+              <div 
+                class="
+                  border-dashed border-2 border-n-700 rounded-md
+                  flex flex-col items-center justify-center 
+                  py-4 gap-2 
+                  bg-n-500/10
+                "
+              >
+                <label 
+                  for="iphoto" 
+                  class="
+                  bg-n-700 
+                    p-1 
+                    border border-n-900 rounded-lg 
+                    cursor-pointer
+                  "
+                >
+                  <img 
+                    src="assets/images/icon-upload.svg" 
+                    alt="Button upload"
+                  >
                 </label>
-                <input
-                type="file"
-                name="photo"
-                id="iphoto"
-                class="hidden"
-                />
+                <input type="file" name="photo" id="iphoto" class="hidden"/>
                 <span class="text-n-300">Drag and drop or click to upload</span>
               </div>
-              <span class="text-xs flex gap-2 text-n-500">
+              <span 
+                class="
+                  text-xs text-n-500 
+                  flex 
+                  gap-2 
+                "
+              >
                 <img src="assets/images/icon-info.svg" alt="Icone Info Upload">
                 Upload your photo (JPG or PNG, max size: 500KB).
               </span>
             </div>
-            <!-- FIM INPUT PHOTO AVATAR -->
+            <!-- ENDS INPUT PHOTO AVATAR -->
 
-            <div>Full Name</div>
+            <!-- STARSTS INPUT FULL NAME-->
+            <div 
+              class="
+                flex flex-col
+              "
+            >
+              <label for="fullname">Full Name</label>
+              <input 
+                type="text" 
+                id="fullname"
+                class="
+                bg-n-500/10
+                  border-2 border-n-700
+                  text-n-300
+                "
+                >
+            </div>
+            <!-- ENDS INPUT FULL NAME-->
+
             <div>Email Address example@email.com</div>
             <div>GitHub Username @yourusername</div>
             <div>Generate My Ticket</div>
