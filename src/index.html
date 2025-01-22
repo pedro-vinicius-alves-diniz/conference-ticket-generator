@@ -34,7 +34,7 @@
   >
     <div id="container-main" class="max-w-sm flex flex-col mx-auto gap-5">
       <main>
-        <div id="container-form" class="">
+        <div id="container-form">
           <!-- Header starts -->
           <header class="flex flex-col items-center justify-center pt-3">
             <img
@@ -129,75 +129,70 @@
           <!-- ENDS FORM -->
         </div>
 
-        <div
-          id="container-ready"
-          class="text-n-0 text-center hidden flex-col gap-10 "
-        >
-          <!-- Form ends -->
-          <!-- Generated tickets starts -->
-          <img
-            src="assets/images/logo-full.svg"
-            alt="Logo full Coding Conf"
-            width="150"
-            class="mx-auto mt-8"
-          />
-
-          <div class="space-y-3">
-            <h4 class="text-3xl font-bold">
-              Congrats,
-              <span
-                class="fullname bg-gradient-to-r from-gradient-from to-gradiente-to bg-clip-text text-transparent"
-                >Jonatan</span
-              >
-              <span
-                class="fullname bg-gradient-to-r from-gradient-from to-gradiente-to bg-clip-text text-transparent"
-                >Kristof</span
-              >! Your ticket is ready.
-            </h4>
-
-            <p class="text-n-300 text-lg">
-              We've emailed your ticket to
-              <span id="email" class="text-orange-5">jonatan@email.com</span>
-              and will send updates in the run up to the event.
-            </p>
-          </div>
-
-          <div
-            class="bg-ticket bg-cover bg-center aspect-ticket flex items-center justify-between"
-          >
-            <div class="flex flex-col items-start justify-around gap-10 w-full pl-4">
-              <div>
-                <img
-                  src="assets/images/logo-full.svg"
-                  alt="Logo full"
-                  width="200"
-                />
-                <p class="text-xs">Jan 31, 2025 / Austin, TX</p>
-              </div>
-
-              <div class="flex items-center gap-4 w-full">
-                <img
-                  src="assets/images/image-avatar.jpg"
-                  alt="Logo Avatar"
-                  width="50"
-                  class="rounded-lg"
-                />
+        <div id="container-ready" class="hidden">
+          <div class="text-n-0 text-center flex flex-col gap-10 ">
+            <!-- Form ends -->
+            <!-- Generated tickets starts -->
+            <img
+              src="assets/images/logo-full.svg"
+              alt="Logo full Coding Conf"
+              width="150"
+              class="mx-auto mt-8"
+            />
+            <div class="space-y-3">
+              <h4 class="text-3xl font-bold">
+                Congrats,
+                <span
+                  class="fullname bg-gradient-to-r from-gradient-from to-gradiente-to bg-clip-text text-transparent"
+                  >Jonatan</span
+                >
+                <span
+                  class="fullname bg-gradient-to-r from-gradient-from to-gradiente-to bg-clip-text text-transparent"
+                  >Kristof</span
+                >! Your ticket is ready.
+              </h4>
+              <p class="text-n-300 text-lg">
+                We've emailed your ticket to
+                <span id="email" class="text-orange-5">jonatan@email.com</span>
+                and will send updates in the run up to the event.
+              </p>
+            </div>
+            <div
+              class="bg-ticket bg-cover bg-center aspect-ticket flex items-center justify-between"
+            >
+              <div class="flex flex-col items-start justify-around gap-10 w-full pl-4">
                 <div>
-                  <h6 class="text-start font-bold">Jonatan Kristof</h6>
-                  <p class="flex items-center gap-1 text-xs">
-                    <img src="assets/images/icon-github.svg" alt="Logo Github" width="15"/>
-                    @jonatankristof0101
-                  </p>
+                  <img
+                    src="assets/images/logo-full.svg"
+                    alt="Logo full"
+                    width="200"
+                  />
+                  <p class="text-xs">Jan 31, 2025 / Austin, TX</p>
+                </div>
+                <div class="flex items-center gap-4 w-full">
+                  <img
+                    src="assets/images/image-avatar.jpg"
+                    alt="Logo Avatar"
+                    width="50"
+                    class="rounded-lg"
+                  />
+                  <div>
+                    <h6 class="text-start font-bold">Jonatan Kristof</h6>
+                    <p class="flex items-center gap-1 text-xs">
+                      <img src="assets/images/icon-github.svg" alt="Logo Github" width="15"/>
+                      @jonatankristof0101
+                    </p>
+                  </div>
                 </div>
               </div>
+              <div>
+                <p class="rotate-90 text-lg text-n-500">#01609</p>
+              </div>
             </div>
-
-            <div>
-              <p class="rotate-90 text-lg text-n-500">#01609</p>
-            </div>
+            <!-- Generated tickets ends -->
           </div>
-          <!-- Generated tickets ends -->
         </div>
+
       </main>
     </div>
 
@@ -210,5 +205,7 @@
       >. Coded by
       <a href="#" class="text-n-500 font-bold">Pedro Vinicius Alves Diniz</a>.
     </div>
+
+    <script type="module" src="js/scripts.js"></script>
   </body>
 </html>
