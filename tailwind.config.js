@@ -10,7 +10,7 @@ module.exports = {
         'n-700': 'hsl(245, 19%, 35%)',
         'n-900': 'hsl(248, 70%, 10%)',
         'orange-5': 'hsl(7, 88%, 67%)',
-        'orange-7': 'Orange 700: hsl(7, 71%, 60%)'
+        'orange-7': 'hsl(7, 71%, 60%)'
       },
       fontFamily: {
         'incosolata': ['Inconsolata', 'sans-serif'],
