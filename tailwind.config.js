@@ -19,10 +19,10 @@ module.exports = {
       },
 
       backgroundImage: {
-        'mobile': 'url(/src/assets/images/background-mobile.png)',
-        'tablet': 'url(/src/assets/images/background-tablet.png)',
-        'desktop': 'url(/src/assets/images/background-desktop.png)',
-        'ticket': 'url(/src/assets/images/pattern-ticket.svg)'
+        'mobile': 'url(./src/assets/images/background-mobile.png)',
+        'tablet': 'url(./src/assets/images/background-tablet.png)',
+        'desktop': 'url(./src/assets/images/background-desktop.png)',
+        'ticket': 'url(./src/assets/images/pattern-ticket.svg)'
       },
       aspectRatio: {
         'ticket': '15 / 7'
